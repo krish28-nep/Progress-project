@@ -1,0 +1,58 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  color: #2f2f2f;
+  background-color: #fcfeff;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.frontWall{
+  background: url(./assets/gaming.jpg);
+  width: 100vw;
+  height: 200px;
+  color :#fcfeff;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navContainer{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  justify-content: space-between;
+}
+
+.logoProfile{
+  width: 250px;
+  margin:0;
+  padding:0; 
+  cursor: pointer;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap:100px;
+  margin: 10px 0 80px;
+}
+ul li{
+  cursor: pointer;
+}
+.searchBar{
+  margin: 10px 40px 80px 60px;
+  padding: 10px;
+  border-radius: 20px;
+  color:#2f2f2f;
+  font-size: 1.2rem;
+  
+}
+
+
