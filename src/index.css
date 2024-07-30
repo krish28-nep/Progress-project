@@ -5,14 +5,18 @@ body{
   background-color: #fcfeff;
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .container{
-  display: flex;
-  justify-content: center;
+
+  top: 100px;
 }
 .frontWall{
   background: url(./assets/gaming.jpg);
   width: 100vw;
+  background-position: center top 90%;
   height: 200px;
   color :#fcfeff;
   display: flex;
@@ -29,7 +33,7 @@ body{
 }
 
 .logoProfile{
-  width: 250px;
+  width: 150px;
   margin:0;
   padding:0; 
   cursor: pointer;
@@ -40,19 +44,36 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap:100px;
-  margin: 10px 0 80px;
+  gap:80px;
 }
 ul li{
   cursor: pointer;
 }
+
 .searchBar{
-  margin: 10px 40px 80px 60px;
+  margin-right: 30px;
   padding: 10px;
   border-radius: 20px;
   color:#2f2f2f;
   font-size: 1.2rem;
+}
+.variesService{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
   
+
+}
+
+.variesContainer{
+  border:#895858 2px solid;
+  width:  300px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
 }
 
 
