@@ -6,12 +6,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-}
-.container{
-
-  top: 100px;
 }
 .frontWall{
   background: url(./assets/gaming.jpg);
@@ -29,6 +25,7 @@ body{
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+
   justify-content: space-between;
 }
 
@@ -60,14 +57,14 @@ ul li{
 .variesService{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
-  
-
+  gap:100px;
+  margin-top: 100px;
 }
 
 .variesContainer{
-  border:#895858 2px solid;
+  border: 3px solid rgba(0,0,0,0.5);
   width:  300px;
   height: 200px;
   display: grid;
@@ -76,4 +73,27 @@ ul li{
 
 }
 
+.link{
+  text-decoration: none;
+  transition: transform 0.25s ease-out;
+  transform-origin: center;
 
+}
+
+.active{
+  text-decoration: underline green;
+  text-decoration-thickness: 3px ;
+  transform: scale(1.1);
+
+}
+
+h1{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 22em;
+  animation: type 3s steps(60, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
